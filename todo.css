@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body
+{
+	background-color: #FFF;
+	height : 2000px;
+}
+div
+{
+    display: inline-table;
+}
+.header
+{
+    background-color: #333;
+    display: block;
+}
+.header p
+{
+    color : #FFF;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 5px;
+}
+.createList
+{
+    background-color: #585858;
+    padding : 5px;
+    border-radius: 0% 36% 36% 0;
+    /* margin: 0px 20px; */
+}
+.createList:hover
+{
+    cursor: pointer;
+}
+.newDiv
+{
+    border : 1px #fff solid;
+    background-color:#A3A3A3;
+    max-width : 230px;
+    display : none;
+}
+.newTask
+{
+    border : 1px #aaa solid;
+    width : inherit;
+    display: block;
+    color : #000;
+    font-weight: bolder;
+    align-items: center;
+    max-width: inherit;
+    overflow: auto;
+}
+.lastBut
+{
+    width: inherit;
+   /* min-width: 100px;*/
+    padding : 5px;
+    font-size : 10px;
+    margin-left : 3px;
+    width : 40px;
+    border-radius: 4px;
+    background-color: #000050;
+    border : none;
+    border-bottom : 1px #FFF solid;
+}
+
+.check
+{
+    float: right;
+}
+.address
+{
+    font-weight: bolder;
+    color : #000;
+    font-size: larger;
+    text-align: center;
+}
+input
+{
+    border: none;
+    border-bottom: #000 solid .5px;
+    /* background-color: inherit; */
+    color : #FFF;
+}
+.lastBut2
+{
+	width : 100px;
+}
+.myInput
+{
+	background-color : #DDD;
+	color : #000;
+}
